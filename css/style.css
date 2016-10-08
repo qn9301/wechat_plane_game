@@ -1,0 +1,57 @@
+/**
+ * design by Mr Zheng
+ */
+*{margin:0px;padding:0px;}
+#main-box{
+	width:320px;
+	height:568px;
+	background: url(../image/开始背景.png) repeat-y;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+	/*overflow: hidden;*/
+}
+img{
+	position:absolute;
+}
+#start{
+	position: absolute;
+	left: 50%;
+	bottom:30px;
+	border:1px solid black;
+	border-radius: 15px;
+	margin-left: -43px;
+	padding:5px 10px;
+	cursor: pointer;
+}
+#score-box{
+	margin: 10px 10px;
+	display: none;
+}
+#board{
+	width:200px;
+	z-index: 9999;
+	display: none;
+	position: absolute;
+	top:50%;
+	margin-top: -39px;
+	left: 50%;
+	margin-left: -110px;
+	/*transform: translateX(-50%);
+	-webkit-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);*/
+	border: 1px solid black;
+	border-radius: 10px;
+	padding:10px;
+	background-color: #d7ddde;
+}
+#board div{
+	margin-top: 10px;
+	text-align: center;
+}
+#replay{
+	cursor: pointer;
+	padding:5px;
+	border: 1px solid black;
+	border-radius: 10px;
+}

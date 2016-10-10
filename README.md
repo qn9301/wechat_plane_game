@@ -1,1 +1,2 @@
-打飞机的js版本，自创，欢迎大家讨论
+# 鎵撻鏈虹殑js鐗堟湰锛岃嚜鍒涳紝娆㈣繋澶у璁ㄨ
+<a href="http://blog.hwmorelove.com/project/wechat_plane/">椤圭洰鍦板潃</a>
